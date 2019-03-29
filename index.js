@@ -6,8 +6,8 @@ const app = express ();
 
 passport.use (new GoogleStrategy ());
 
-//clientID 805258375604-au95intbjl9v0tof6sfobpkbm2q5ricu.apps.googleusercontent.com
-//clientSecret 8NgH8McPuo7Cr4EkkLl4ggxM
+//
+//clientSecret 
 app.get ('/', (req, res) => {
   res.send ({hi: 'hello world'});
 });
